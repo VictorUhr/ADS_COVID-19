@@ -96,8 +96,8 @@ concac.plot()
 
 
 # %% [4]
-'''Plot matplotlib'''
-''' Matplotlib Figure2: The vaccination rate over time '''
+
+''' Figure2: The vaccination rate over time '''
 
 
 fig2 =concac.plot( grid = True,
@@ -114,6 +114,6 @@ plt.show()
 # %% [5] 
 '''Export csv file'''
 df_plot1 = concac.reset_index()
-df_plot1.to_csv('../data/processed/COVID_vac_small_flat_table.csv',sep=';',index=False)
+df_plot1.to_csv('/Users/victhorvic/ads_covid-19/data/processed/COVID_vac_small_flat_table.csv',sep=';',index=False)
 
 

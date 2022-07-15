@@ -67,16 +67,6 @@ for each in country_list:
     # Mexico US Germany
 pop = [128.9E6, 329.5E6, 83.24E6]
 
-'''df_plot.set_index('date').div(pop).plot( title = 'The relative cases overtime of Covid infectors', 
-                                        grid= True,   
-                                        xlabel = 'Date',
-                                        ylabel = 'The relative cases overtime of Covid infectors' ,                                                                            
-                                                                             
-                                        )
-'''
-
-'''Figure1: The relative cases overtime of Covid infectors (absolute Covid cases/population size) '''
-
 fig1 =df_plot.set_index('date').div(pop).plot( grid = True,
                                               xlabel = 'Date',
                                               ylabel = 'Confirmed cases (absolute Covid cases/population size)',
@@ -89,6 +79,8 @@ fig1 =df_plot.set_index('date').div(pop).plot( grid = True,
 fig1.figure.savefig('/Users/victhorvic/ads_covid-19/reports/figures/figure_1.png', dpi = 1000)
 plt.show()
 
+df_plot = df_plot.set_index('date').div(pop)
+df_plot = df_plot.reset_index()
 
 # %% 3
 '''Export csv file'''
@@ -105,6 +97,7 @@ time_str=[each.strftime('%Y-%m-%d') for each in time_idx]
 df_plot['date']=time_idx
 type(df_plot['date'][0])
 
-df_plot.to_csv('../data/processed/COVID_inf_small_flat_table.csv',sep=';',index=False)
+
+df_plot.to_csv('/Users/victhorvic/ads_covid-19/data/processed/COVID_inf_small_flat_table.csv',sep=';',index=False)
 
 

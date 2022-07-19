@@ -192,6 +192,9 @@ Table.columns = ('t', 'ydata', 'fitted')
 Table.to_csv('/Users/victhorvic/ads_covid-19/data/interim/COVID_PR_Mx_table1.csv',
                          sep=';',index=False)
 
+# %%% Export to optimum value 
+
+np.savetxt('/Users/victhorvic/ads_covid-19/data/interim/popt_Mx.txt', popt)
 
 # %% Dynamic beta in SIR (infection rate)
 '''

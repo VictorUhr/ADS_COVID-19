@@ -96,7 +96,7 @@ gamma= 0.1  # recovery rate
 
 
 # condition I0+S0+R0=N0
-I0=df_analyse.Mexico[60]
+I0=df_analyse.Mexico[60] 
 S0=N0-I0
 R0=0
 

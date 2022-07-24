@@ -221,7 +221,7 @@ def update_figure(country_list):
                         'tickfont':dict(size=14,color="#7f7f7f"),
                         
                       },
-                yaxis={'type':"line",
+                yaxis={'type':"log",
                        'range':'[1.1,8,8]'
                       },
                 
@@ -260,7 +260,7 @@ def update_figure1(country_list):
                         'tickfont':dict(size=14,color="#7f7f7f"),
                         
                       },
-                axis={'type':"line",
+                axis={'type':"log",
                        'range':'[1.1,8,8]'
                       },
                 

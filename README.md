@@ -1,3 +1,15 @@
+# The overview of the final deliveries of the project are content in the next rutes.
+## Delivery 3:
+https://github.com/VictorUhr/ADS_COVID-19/blob/main/notebooks/0.%20Source%20code_Walkthrough_Delivery3.ipynb
+
+## Delivery 4
+https://github.com/VictorUhr/ADS_COVID-19/blob/main/notebooks/0.%20Source%20code_Walkthrough_Delivery4.ipynb
+
+### Source code of the deliveries are content in the next folder: 
+https://github.com/VictorUhr/ADS_COVID-19/tree/main/src
+
+
+
 ADS_COVID-19
 ==============================
 

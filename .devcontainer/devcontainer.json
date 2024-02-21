@@ -1,0 +1,18 @@
+
+
+    {
+        "name": "ADS_COVID-19",
+        "runArgs": [
+                "--mount=type=bind,source=${localEnv:HOME}/.pyenv/versions,target=/usr/local/pyenv/versions"
+            ],        
+        "customizations": {
+            "vscode": {
+                "extensions": [
+                    "GitHub.copilot",                    
+                    "eamodio.gitlens"
+                    
+
+                ]
+            }
+        }
+    }

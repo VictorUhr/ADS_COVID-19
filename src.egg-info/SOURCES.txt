@@ -1,0 +1,30 @@
+LICENSE
+README.md
+setup.py
+src/__init__.py
+src.egg-info/PKG-INFO
+src.egg-info/SOURCES.txt
+src.egg-info/dependency_links.txt
+src.egg-info/top_level.txt
+src/data/Relational_data.py
+src/data/__init__.py
+src/data/get_data.py
+src/data/get_data_all_countries.py
+src/data/make_dataset.py
+src/features/__init__.py
+src/features/build_features.py
+src/features/build_features_2.py
+src/models/Functions_SIR_model.py
+src/models/__init__.py
+src/models/predict_model.py
+src/models/predict_model_Germany.py
+src/models/predict_model_Mexico.py
+src/models/predict_model_US.py
+src/models/train_model.py
+src/visualization/Copia de visualize.py
+src/visualization/__init__.py
+src/visualization/visualize.py
+src/visualization/visualize_Delivery 3.py
+src/visualization/visualize_Delivery 3_1.py
+src/visualization/visualize_Delivery 3_2.py
+src/visualization/visualize_Delivery 4.py
